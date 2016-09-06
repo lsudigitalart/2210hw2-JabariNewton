@@ -3,8 +3,6 @@ var canvasLimit=0;
 var x = 0;
 var y = 0;
 var space = 4;
-var canvas = document.getElementById('myCanvas');
-var context = canvas.getContext('2d');
 
 
 function setup() {
@@ -225,10 +223,6 @@ fill(253,203,22);
   vertex(45,269);
   vertex(0,269);
 endShape();
-
-
-
-
 
 
 }
